@@ -1,0 +1,15 @@
+Hướng  dẫn
+
+1. Ứng dụng: Điều khiển tốc độ quạt theo nhiệt độ, ứng dụng để giải nhiệt cho Modem, wifi Ap, hoặc bất cứ thiết bị sinh nhiệt nào bạn muốn
+
+2. Nguyên lý hoạt động: 
++ Nhiệt độ dưới 31 độ: quạt chạy tốc độ thường (pwm 80)
++ Nhiệt độ trên 33 độ: quạt chạy tốc độ cao (pwm 150)
++ Kết nối với Blynk
+
+3. Vật tư:
++ Cảm biến nhiệt là DS18B20, nên dùng loại có dây để dễ dàng luồn vào những nơi cần dò nhiệt
++ Quạt 4 pin của Nidec (chạy điện 12v), mình mua hàng cũ nhưng chạy rất êm
++ Nếu nguồn cấp là 5v, thì cần mạch tăng áp từ 5v lên 12v để dùng cho quạt 
+
+=============
